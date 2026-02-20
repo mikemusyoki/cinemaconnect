@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370088307346",
+    "project_id": "cinemaconnnect",
+    "storage_bucket": "cinemaconnnect.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370088307346:android:9b4483d97401f4bca4d44b",
+        "android_client_info": {
+          "package_name": "com.michaelmasai.cinemaconnnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0BeT1bEEvjNE2DF-5b7F2KaUvLJi6Kik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

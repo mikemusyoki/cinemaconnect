@@ -1,0 +1,151 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top">
+
+        <TextView
+            android:id="@+id/adminTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="40dp"
+            android:text="Admin Dashboard"
+            android:gravity="center"
+            android:textColor="#4C1D95"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+        <!-- TOTAL USERS -->
+        <TextView
+            android:id="@+id/totalUsers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Users: 0"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:layout_marginBottom="15dp" />
+
+        <!-- TOTAL TICKETS -->
+        <TextView
+            android:id="@+id/totalTickets"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Tickets Sold: 0"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:layout_marginBottom="15dp" />
+
+        <!-- TOTAL REVENUE -->
+        <TextView
+            android:id="@+id/totalRevenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Revenue: KSh 0"
+            android:textSize="20sp"
+            android:textColor="#333"
+            android:layout_marginBottom="25dp" />
+
+        <TextView
+            android:id="@+id/titleByCinema"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tickets by Cinema:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#4C1D95"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/byCinemaList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading..."
+            android:textColor="#4C1D95"
+            android:textSize="18sp"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartCinema"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/titleByMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tickets by Movie:"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#4C1D95"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/byMovieList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading movie stats..."
+            android:textSize="18sp"
+            android:textColor="#4C1D95"/>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartMovie"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/titleDailyRevenue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daily Revenue"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="#4C1D95"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/dailyRevenueList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Loading daily revenue..."
+            android:textSize="18sp"
+            android:textColor="#4C1D95"/>
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/barChartDailyRevenue"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="8dp" />
+
+
+        <Button
+            android:id="@+id/btnExportPdf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Export Admin Report (PDF)"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#4C1D95"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"/>
+        <Button
+            android:id="@+id/adminLogoutBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#B00020"
+            android:layout_marginTop="10dp"
+            android:padding="12dp" />
+
+
+    </LinearLayout>
+</ScrollView>

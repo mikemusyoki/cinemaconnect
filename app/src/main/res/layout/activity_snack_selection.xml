@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/totalSnackPrice"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop = "90dp"
+        android:text="Total: KSh 0"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Total: KSh 250" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/snackRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="433dp"
+        android:layout_weight="1"
+        android:contentDescription="@string/snack_list"
+        android:paddingBottom="10dp"
+        tools:listitem="@layout/item_snack" />
+
+    <Button
+        android:id="@+id/btnProceed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Proceed to Checkout"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:backgroundTint="#9333EA" />
+
+</LinearLayout>

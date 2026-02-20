@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp">
+
+    <TextView
+        android:id="@+id/ticketMovie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#4C1D95"/>
+
+    <TextView
+        android:id="@+id/ticketCinema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cinema"
+        android:textColor="#6B7280"/>
+
+    <TextView
+        android:id="@+id/ticketScreen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Screen"
+        android:textColor="#6B7280"/>
+
+    <TextView
+        android:id="@+id/ticketSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seats"
+        android:textColor="#6B7280"/>
+
+    <TextView
+        android:id="@+id/ticketPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textStyle="bold"
+        android:textColor="#9333EA"
+        android:layout_marginTop="6dp"/>
+</LinearLayout>

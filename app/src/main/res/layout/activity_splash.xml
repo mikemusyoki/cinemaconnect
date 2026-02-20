@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    >
+
+    <TextView
+        android:id="@+id/logoEmoji"
+        android:layout_width="160dp"
+        android:layout_height="172dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="🎬"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/appName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CINEMACONNECT"
+        android:textSize="38sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/appTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Cinema, Your Way"
+        android:textSize="18sp"
+        android:textColor="#DDFFFFFF"
+        android:gravity="center"
+        android:layout_marginTop="5dp" />
+
+    <Button
+        android:id="@+id/btnGetStarted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#7E22CE"
+        android:layout_marginTop="40dp"
+        android:padding="12dp" />
+
+</LinearLayout>

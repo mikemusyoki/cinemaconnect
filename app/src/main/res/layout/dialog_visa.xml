@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <EditText
+        android:id="@+id/cardNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:hint="Card Number"
+        android:textColorHint="#3b3b3b"
+        android:inputType="number"
+        android:maxLength="16"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/cardExpiry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="MM/YY"
+        android:textColor="@color/black"
+        android:textColorHint="#3b3b3b"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/cardCvv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="CVV"
+        android:textColor="@color/black"
+        android:textColorHint="#3b3b3b"
+        android:inputType="numberPassword"
+        android:maxLength="3"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/cardName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Cardholder Name"
+        android:textColorHint="#3b3b3b"
+        android:textColor="@color/black"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnPayVisa"
+        android:text="Pay Now"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#2563EB"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

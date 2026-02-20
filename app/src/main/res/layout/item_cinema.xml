@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_bg"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp"
+    android:elevation="2dp">
+
+    <ImageView
+        android:id="@+id/iconView"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/imax"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="16dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cinema Name"
+            android:textStyle="bold"
+            android:textColor="#2E1065"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/locationView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="#6B7280"
+            android:textSize="14sp"
+            android:layout_marginTop="2dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:rating="4.5"
+            android:layout_marginTop="6dp"
+            android:isIndicator="true"
+            style="?android:attr/ratingBarStyleSmall" />
+    </LinearLayout>
+
+</LinearLayout>

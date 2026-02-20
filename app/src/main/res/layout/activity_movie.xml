@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_bg"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/cinemaTitle"
+        android:layout_width="372dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="Cinema Name 🍿"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/movieRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="Movie List"/>
+
+</LinearLayout>

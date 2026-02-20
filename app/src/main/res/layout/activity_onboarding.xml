@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_bg"
+    android:padding="24dp">
+
+    <ImageView
+        android:src="@drawable/ic_movie_night"
+        android:layout_width="160dp"
+        android:layout_height="172dp"
+        android:backgroundTint="@color/cardview_shadow_end_color"
+        android:contentDescription="Movie illustration" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Discover, Watch, Enjoy"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:layout_marginTop="30dp"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Find cinemas across Kenya and book your movie tickets instantly!"
+        android:textColor="#DDFFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue"
+        android:textColor="@android:color/white"
+        android:backgroundTint="#7E22CE"
+        android:paddingHorizontal="20dp"
+        android:paddingVertical="10dp" />
+
+</LinearLayout>
